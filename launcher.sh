@@ -41,6 +41,6 @@ fi
 json_path=$HEROIC_CONFIG_DIR"68c214c58f694ae88c2dab6f209b43e4.json"
 
 tmp=$(mktemp)
-jq --arg exe "$INSTALL_DIR$exe" '."68c214c58f694ae88c2dab6f209b43e4".targetExe = $exe' "$json_path" > "$tmp" && mv "$tmp" "$json_path"
+jq --arg target_exe "$INSTALL_DIR$exe" '."68c214c58f694ae88c2dab6f209b43e4".targetExe = $target_exe' "$json_path" > "$tmp" && mv "$tmp" "$json_path"
 
 flatpak run com.heroicgameslauncher.hgl --no-gui --no-sandbox "heroic://launch/68c214c58f694ae88c2dab6f209b43e4"
