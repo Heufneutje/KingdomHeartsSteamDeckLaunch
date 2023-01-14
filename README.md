@@ -1,6 +1,6 @@
 # Kingdom Hearts Steam Deck Launch
 
-A simple script I wrote to make running the Kingdom Hearts HD 1.5+2.5 collection on the Steam Deck a bit more convenient. The game's default launcher crashes as soon as it tries to load a game due to Proton not being able to handle the fact that the launcher and the games uses different versions of Direct3D. The seperate games do exist in the install directory as separate executables, though attempting to launch these through Steam directly does not work since it bypasses Epic's authentication. It is possible to change the target excutable through the HEeroic Games Launcher to actually go through Epic's authentication properly. This script automates that process.
+A simple script I wrote to make running the Kingdom Hearts HD 1.5+2.5 collection on the Steam Deck a bit more convenient. The game's default launcher crashes as soon as it tries to load a game due to Proton not being able to handle the fact that the launcher and the games uses different versions of Direct3D. The seperate games do exist in the install directory as separate executables, though attempting to launch these through Steam directly does not work since it bypasses Epic's authentication. It is possible to change the target excutable through the Heroic Games Launcher to actually go through Epic's authentication properly. This script automates that process.
 
 These are the steps to make this script work:
 1. Install the Heroic Games Launcher flatpak. 
