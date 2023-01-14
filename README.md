@@ -15,6 +15,7 @@ These are the steps to make this script work:
 
 `HEROIC_CONFIG_DIR="/home/deck/.var/app/com.heroicgameslauncher.hgl/config/heroic/GamesConfig/"`
 
-7. Add the `launcher.sh` script to Steam to be able to launch from Gaming Mode.
+7. Set the scripts properties to be excutable.
+8. Add the `launcher.sh` script to Steam to be able to launch from Gaming Mode.
 
 You can now play all 4 games in the collection without needing to switch to Desktop Mode. The script will ask you to choose a game and then update Heroic's config to launch the correct executable. It then launches the game you selected through Heroic.
