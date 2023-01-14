@@ -35,7 +35,7 @@ case $title in
 esac
 
 if [ -z "$exe" ]; then
-exit 1;
+    exit 1;
 fi
 
 json_path=$HEROIC_CONFIG_DIR"68c214c58f694ae88c2dab6f209b43e4.json"
